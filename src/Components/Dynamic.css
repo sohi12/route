@@ -1,0 +1,51 @@
+.dynamic {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8); /* Transparent background */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 110%;
+  max-width: 800px;
+  margin: 20px auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dynamic:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.dynamic h4 {
+  margin: 10px 0;
+  color: #007bff;
+}
+
+.transaction-card {
+  background: rgba(240, 244, 248, 0.8); /* Light transparent background */
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.transaction-card:hover {
+  background-color: rgba(0, 123, 255, 0.1); /* Light blue on hover */
+  transform: scale(1.01);
+}
+
+.transaction-card h4 {
+  margin: 5px 0;
+}
+
+.transaction-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.transaction-details h4 {
+  margin: 5px 0;
+  color: #333;
+}
